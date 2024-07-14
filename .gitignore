@@ -1,0 +1,36 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# Django related
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+
+# Django migration files
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Static files (usually collected by Django's collectstatic)
+staticfiles/
+
+# Virtual environment
+projectenv/
+.env
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# IDE specific files
+.idea/
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Ignore pytest cache
+.pytest_cache/
